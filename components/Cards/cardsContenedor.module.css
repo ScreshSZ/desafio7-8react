@@ -1,0 +1,24 @@
+.cardsContenedor{
+    height: 400px;
+    width: 500px;
+    overflow: scroll;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin: 10px;
+}
+
+.cardsContenedor img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.cardsContenedor button{
+    background-color: rgb(166, 40, 194);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 32px;
+    cursor: pointer;
+    color: #fff;
+}
